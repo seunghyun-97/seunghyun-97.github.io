@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Seung Hyun Kim's Personal Website</title>
+		<meta charset="utf-8" /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h1><strong><a href="https://drive.google.com/file/d/1Spg4qJBt4qwL_826llRdjk6-NFRrPj3X/view?usp=sharing" class="link">Curriculum Vitae</a></strong> <h1>
+				</div>
+			</header> 
+
+		<!-- Main -->
+			<div id="main">
+
+				<section id="one">
+					<header class="major">
+						<h1>Author's Notes on <i>Measure Theory for Applications to Probability</i></h1>
+					</header>
+					<p>PMA: Principles of Mathematical Analysis (Rudin)<br>
+						RCA: Real and Complex Analysis (Rudin)<br>
+						PS: Probability and Stochastics (Cinlar)<br>
+						PM: Probability and Measure (Bilingsley) <br>
+						CPM: Convergence of Probability Measures (Bilingsley) 
+					</p>		
+				</section>
+
+				<section id="two">
+					<h2>1. Topological Preliminaries</h2>
+						<p>Like the title suggests, this chapter includes the topological concepts I believe are necessary to measure theory and probability. The topics are developed based on Munkres' Topology and RCA. </p>
+						<p>I focus more on the countabiilty and separation axioms than most measure theory texts; second countability in particular I found to be a key property that connects topologies and Borel &sigma;-algebras. 
+						</p>
+						<p>I also present three different versions of Urysohn's lemma. The first is the one found in RCA, which assumes the underlying topological space is locally compact Hausdorff and thus requires the closed set involved to be compact. Urysohn's lemma for normal spaces is more general in that it holds for any closed set, since normal spaces are special cases of locally compact Hausdorff spaces. Lastly, restricting the underlying space to a metrizable space even allows us to construct a Lipschitz continuous Urysohn function, which is particularly useful when proving the Portmanteau theorem later on. 
+						</p>
+						<p>While it is not a topological topic, I conclude the chapter with a discussion of subsequences and limits superior/inferior. I have yet to see a satisfactorily comprehensive treatment of these core concepts of analysis, even in PMA, so I decided to include my own treatise on the subject here. 
+						</p>
+				</section>
+
+				<section id="two">
+					<h2>2. Measure Spaces and Measurable Functions</h2>
+						<p>We define measurable spaces and study properties of measurable functions as well as (positive) measures in this chapter. 
+						</p>
+						<p>Unlike most textbooks on measure theory, we include the &pi;-&lambda; theorem and the monotone class theorem for functions (basically the &pi;-&lambda; theorem but for measurable functions). These theorems, as found in PS, are central to many of the proofs in probability theory, hence their inclusion. 
+						</p>
+						<p>For similar reasons, the conditions for equivalence of finite and &sigma;-finite measures are also touched upon. Our chapter concludes with Caratheodory's extension theorem, which remains one of the most frequently invoked and most easily applicable results when constructing a measure space from more primitive conditions. For instance, the extension theorem is key to Ionescu-Tulcea's theorem, which proves the existence of an underlying probability space supporting a sequence of random variables with the desired distributions. 
+						</p>
+				</section>
+
+				<section id="two">
+					<h2>3. Abstract Integration</h2>
+					<p>In this chapter we define abstract integration and study some of the properties of abstract integrals. The exposition is quite straightforward. The exception is some additional theorems pertaining to the Dominated Convergence Theorem, such as Scheffe's lemma, that are seldom included in measure theory textbooks but which prove useful for the study of probability theory. </p>
+					<p>A section on transition kernels is also included, with the intention of formally introducing Markov transition probabilities. Markov chains are central to Bayesian econometrics and MCMC methods, among other areas, and the content in this section furnishes us with the mathematical tools for studying Markov chains with infinite state spaces. 
+					</p>	
+				</section>
+
+				<section id="two">
+					<h2>4. Borel Measures</h2>
+					<p>This chapter constructs the Lebesgue measure using the Riesz representation theorem, and follows chapter 2 of RCA almost word for word. 
+					</p>
+				</section>
+
+				<section id="two">
+					<h2>5. L<sup>p</sup> Spaces</h2>
+					<p>L<sup>p</sup> spaces, being at once function spaces and Banach spaces, also appear very often in probability theory. As such, we delve deep into the various results associated with L<sup>p</sup> spaces, including the Holder and Minkowsky inequalities as well as Jensen's inequality. The exposition is standard, and borrows both from RCA and PS.  </p>
+				</section>
+
+
+				<section id="two">
+					<h2>6. Hilbert Space Theory</h2>
+					<p>This chapter is dedicated to the product of inner product spaces and Hilbert spaces in particular. We focus on the Hilbert projection theorem, which ensures the existence of an orthogonal projection onto any closed subset. The projection theorem is the source of many of the most useful results concerning Hilbert spaces, most notably the Riesz-Frechet representation theorem for continuous linear functionals; the representation theorem in turn plays an integral role in von Neumann's proof of the Radon-Nikodym theorem. </p>
+					<p>While it is overlooked in many introductory measure theory courses, the Radon-Nikodym theorem is a crucial result for probability theory. The theorem is used to prove the existence of conditional expectations and probability density functions, among various other results. I thus devote the last section of this chapter to the proof of the Radon-Nikodym theorem, and more generally the Lebesgue decomposition theorem, based on chapter 6 of RCA. 
+					</p>
+				</section>
+
+				<section id="two">
+					<h2>7. Integration on Product Spaces</h2>
+					<p>Product spaces are defined and studied in this chapter, and it includes most of the standard results such as Fubini's theorem. Also included is a short section on transition probability kernels and the construction of probability measures on product spaces. The results derived in this section are then used for a mathematically formal proof of Bayes' rule. The content in this chapter overlaps with chapter 2, section 2 of my text on probability theory. 
+					</p>
+				</section>
+
+
+			</div>
+
+		
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
